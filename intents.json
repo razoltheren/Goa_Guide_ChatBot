@@ -1,0 +1,139 @@
+{"intents": [
+        {"tag": "greeting",
+         "patterns": ["Hi there","hey", "How are you", "Is anyone there?", "Hello", "Good day"],
+         "responses": ["Hello, thanks for asking", "Good to see you again", "Hi there, how can I help?"],
+         "context": [""]
+        },
+        {"tag": "bot",
+        "patterns": ["who are you","who you", "who is this", "tell me your name", "tell me about yourself", "who is taking"],
+        "responses": ["Hello, thanks for asking. I am a chatbot. I can tell you stuff about goa, Try me!"],
+        "context": [""]
+        },
+        {"tag": "CM",
+        "patterns": ["who is chief minister of goa","CM of goa", "Goa government", "chief of goa", "minstry of goa"],
+        "responses": ["Chief minister of Goa is honorable Mr. Promod Savant, member of the Bhartiya Janta Party. He represents the Sanquelim constituency in goa legislative assembly. Ministry of goa: https://www.goa.gov.in/government/who-is-who/"],
+        "context": [""]
+        },
+        {"tag": "Capital Goa",
+        "patterns": ["What is the capital of goa","goa capital"],
+        "responses": ["Capital of the Goan state is Panaji."],
+        "context": [""]
+        },
+        {"tag": "goodbye",
+         "patterns": ["Bye", "See you later", "Goodbye", "Nice chatting to you, bye", "Till next time"],
+         "responses": ["See you!", "Have a nice day", "Bye! Come back again soon."],
+         "context": [""]
+        },
+        {"tag": "thanks",
+         "patterns": ["Thanks", "Thank you", "That's helpful", "Awesome, thanks", "Thanks for helping me"],
+         "responses": ["Happy to help!", "Any time!", "My pleasure"],
+         "context": [""]
+        },
+        {"tag": "noanswer",
+         "patterns": [],
+         "responses": ["Sorry, can't understand you", "Please give me more info", "Not sure I understand. For more details contact us at +91-000000000. Further us can email us at mailto:govt.goa@tourism.com"],
+         "context": [""]
+        },
+        {"tag": "About Goa",
+         "patterns": ["Tell me about Goa!", "what is goa?", "where is goa?", "About Goa","goa"],
+         "responses": ["Goa is a state in western India with coastlines stretching along the Arabian Sea. Its long history as a Portuguese colony prior to 1961 is evident in its preserved 17th-century churches and the area’s tropical spice plantations. Goa is also known for its beaches, ranging from popular stretches at Baga and Palolem to those in laid-back fishing villages such as Agonda"],
+         "context": [""]
+        },
+        {"tag": "Area geography",
+         "patterns": ["area of goa", "geography of goa", "Area geography"],
+         "responses": ["A coastal state bordering the Arabian Sea on the western coast of India, Goa’s capital sits by the Mandovi River in Tiswadi taluka."],
+         "context": [""]
+        },
+        {"tag": "Wifi internet",
+         "patterns": ["about internet serives", "how is the wifi", "how is the broadband", "broadband"],
+         "responses": ["There are several spots across the city where free and chargeable Wi-Fi is available."],
+         "context": [""]
+        },
+        {"tag": "Drinking laws",
+         "patterns": ["liquor scenes", "liquor law", "can i drink", "Drinking laws"],
+         "responses": ["The legal drinking age in Goa is 25."],
+         "context": ["Drinking Laws in Goa"]
+        },
+        {"tag": "food tips",
+         "patterns": ["Tipping","food tips","tips","restaurant customs"],
+         "responses": ["Most of the food and beverage outlets add a service charge in the final bill, so tipping is not necessary. However, small tips for good service are always appreciated."],
+         "context": [""]
+        },
+        {"tag": "Safety",
+         "patterns": ["is goa safe", "am i safe in goa", "safe goa", "safe is goa"],
+         "responses": ["This city has a low crime rate and therefore considered relatively safe. However, petty crimes like pick pocketing or bag snatching are common. It’s advisable to always be cautious of your surroundings and avoid visiting isolated areas.General information. For emergency contact our helpline number: 099XXXX"],
+         "context": ["Safety in Goa"]
+        },
+        {"tag": "Languages spoken",
+         "patterns": ["Which languages spoke in goa","goa languages spoken", "languages spoken", "languages in goa"],
+         "responses": ["English, Hindi, Konkani, Marathi"],
+         "context": [""]
+        },
+        {"tag": "Time zones/ Is IST followed",
+         "patterns": ["Time zones", "IST zone", "what time Goa follows"],
+         "responses": ["IST (UTC+5.5 hours)"],
+         "context": ["Time Zones in Goa"]
+        },
+        {"tag": "Major religions",
+         "patterns": ["religions in goa","Major religions","religions"],
+         "responses": ["Christianity, Hinduism, Portuguese"],
+         "context": ["Religion"]
+        },
+        {"tag": "STD Code",
+         "patterns": ["Domestic international calling codes/ STD codes","Domestic international calling codes","STD code"],
+         "responses": ["0832"],
+         "context": [""]
+        },
+        {"tag": "Electricity standards/ plug standards",
+        "patterns": ["Electrical output","plug standards"],
+        "responses": ["220 V/50; Plugs C, D and M"],
+        "context": [""]
+        },
+        {"tag": "Places Goa",
+        "patterns": ["Top Places in Goa","popular areas in goa","places to visit","tourist spots"],
+        "responses": ["Palolem, Siolim, Patto Centre, Carambolim, Gumal Vaddo, Calangute, Dmello Vaddo, South Goa, Sangolda, Fatona, Ilhas, Defence Colony, Fatorda, Balcbot, Calata"],
+        "context": [""]
+        },
+        {"tag": "Things to do in goa",
+        "patterns": ["how to spend time in goa","things to do in goa","leisure in goa","relaxing in goa"],
+        "responses": ["Palolem, Siolim, Patto Centre, Carambolim, Gumal Vaddo, Calangute, Dmello Vaddo, South Goa, Sangolda, Fatona, Ilhas, Defence Colony, Fatorda, Balcbot, Calata"],
+        "context": ["Beaches, Fort Aguada, Chapora Fort, Dudhsagar Waterfalls, Basilica de Bom Jesus, Viceroy's Arch, Goa Carnival and much more. For more details visit:https://traveltriangle.com/blog/offbeat-things-to-do-in-goa/"]
+        },
+        {"tag": "top hotels",
+        "patterns": ["Top Reviewed Hotels in Goa","top hotels","places to stay","hotels in goa","goa hotels"],
+        "responses": ["The Lalit Golf & Spa Resort, Caravela Beach Resort, The Sea Horse Resort, Resort Terra Paraiso - A Beach Property, Quality Inn Ocean Palms Goa, HARD ROCK HOTEL GOA, Fairfield by Marriott Goa Anjuna, Royal Pearl, Keys Select Ronil Resort, The Avenue,Calangute, Country Inn & Suites by Radisson, Candolim Goa, Marquis Beach Resort, Phoenix Park Inn by Radisson, Pride Sun Village Resort & Spa, So My Resorts (SoMy Resorts), Lemon Tree Amarante Beach Resort, Treehouse Sonnet - A Boutique Hotel, Nimbus Baga Beach Resort, Cidade De Goa - IHCL SeleQtions,The Hq. For bookings and more details visit: https://www.makemytrip.com/hotels/goa-hotels.html"],
+        "context": [""]
+        },
+        {"tag": "clothing",
+        "patterns": ["What type of clothing should I wear","what to wear","outfits to suit me","how to roam","clothing"],
+        "responses": ["Generally take clothes that are comfortable and loose fitting, preferably cotton or linen; we also recommend a hat as protection against the strong midday sun. When visiting temples in Goa. It is important that your shoulders and legs should be covered. Although dress is not formal, in the evenings most hotels and restaurants require gentlemen to wear shirts and long trousers or dress shorts.","A jumper or cardigan may come in handy on some evenings."],
+        "context": [""]
+        },
+        {"tag": "weather",
+        "patterns": ["What is the weather like?", "weather conditions", "humidity and temperature", "when does it rain"],
+        "responses": ["Goa is an ideal winter sun destination. It enjoys almost uninterrupted sunshine and virtually no rainfall during the months of November to March.  Daytime temperatures are on average 30˚C, and in the evening the temperature cools off nicely. From April until June, the heat and humidity starts to build, leading to the arrival of the monsoon. It is not until October that the skies start to clear again and the humidity gradually dissipates."],
+        "context": [""]
+        },
+        {"tag": "festivals",
+        "patterns": ["festivals"," Are there many festivals in Goa","culture of goa","Goa fetivals and culture","goa traditions","goa culture"],
+        "responses": ["The Goan calendar is filled with all kinds of festivals and events - both Hindu and Christian in origin. Visit our festival page to learn more. During festivals and local bank holidays, hotels may organise special entertainment and live music to celebrate the occasion. Events can be impromptu and we are unable to advise that these will be going on at the time of booking."],
+        "context": [""]
+        },
+        {"tag": "language",
+        "patterns": [" languages do they speak in Goa","native languages","languages in Goa"],
+        "responses": ["The state language of Goa is Konkani with a soft song sounds. The Indian national language is Hindi but the Indian official language for education and commerce is English. Therefore English is widely spoken."],
+        "context": [""]
+        },
+        {"tag": "medical facilities",
+        "patterns": ["How are medical facilities in goa?","healthcare facilities in goa","goa hospitals"],
+        "responses": ["The medical facilities in Goa are not up to the standard that we have come to expect in various places in the world. If you need medical treatment whilst in Goa, we would recommend visiting a private clinic. Your representative will be able to recommend an appropriate clinic for you."],
+        "context": [""]
+        },
+        {"tag": "flights",
+        "patterns": ["flights from goa","airlines", "flights to goa", "goa airlines"],
+        "responses": ["There are various national and interntional flight providers to and from Goa. For details on flights, please visit: https://www.skyscanner.co.in/flights-to/goi/cheap-flights-to-goa-airport.html"],
+        "context": [""]
+        }
+
+   ]
+}
